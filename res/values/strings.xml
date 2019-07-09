@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">TESTE</string>
+    <string name="action_settings">Settings</string>
+    <string name="score">0</string>
+    <string name="record">0</string>
+     <string name="snakeDesc">Tête</string>
+      <string name="startButtonDesc">Bouton</string>
+
+</resources>

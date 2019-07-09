@@ -1,0 +1,21 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity" 
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="horizontal"
+    android:id="@+id/rl"
+    android:background="@drawable/fond">
+    
+    <include layout="@layout/layout_main_composant" />
+    
+    <ImageView
+        android:id="@+id/pauseButton"
+        android:src="@drawable/pause_screen"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:layout_centerVertical="true"
+        android:alpha="0.5"
+    />
+</RelativeLayout>
